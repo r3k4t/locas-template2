@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External CSS  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome 4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap 3  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-serif';
+}
+
+
+
+
+/* Background Image Responsive CSS */
+body{
+  /* width: 100%;
+  height: 400px;
+  background-image: url('img.jpg');
+  background-repeat: no-repeat;
+  background-size: initial; */
+  
+  /* width: 100%;
+  height: 400px; */
+
+
+
+  background-image: url('img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center ;
+  background-attachment: fixed ;
+ 
+}
+
+
+
+
+
+
+h1{
+  font-size:35px;
+  color:white;
+}
+
+p{
+  font-size:20px;
+  color:white;
+  text-decoration: none;
+}
+
+h3{
+  font-size:20px;
+  color:white;
+}
+
+
+ul li a{
+    color:white;
+    font-size:20px;
+    font-weight: bold;
+  }
+  
+  .navbar-brand{
+    font-size:25px;
+    color:white;
+    font-weight: bold;
+  }
+
+  .icon-bar{
+    background-color:white;
+    font-size: 40px;
+   
+  }
+
+
+
+   
+
+  .col-md-4{
+
+  
+
+  }
+
+
+</style>
+
+
+
+<body>
+
+
+  <!--navbar menu-->
+
+
+  <nav class="navbar  navbar-me">
+    <div class="container-fluid ">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed menu-collapsed-button" data-toggle="collapse" data-target="#navbar-primary-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">LOCAS</a>
+      </div>
+        
+        <div class="collapse navbar-collapse navbar-right  header-right-menu" id="navbar-primary-collapse">
+              <ul class="nav navbar-nav ">
+              <li class="page-scroll">
+                          <a class="header" href="javascript:" id="about-menu">About</a>
+                      </li>
+                      <li>
+                          <a class="" href="javascript:" id="services-menu">Services</a>
+                      </li>
+                      <li>
+                          <a class="" href="javascript:" id="Clients-menu">Clients</a>
+                      </li>
+                      <li>
+                          <a class="" href="javascript:" id="contact-menu">Contact</a>
+                      </li>
+                      <li>
+                          <a class="" href="javascript:" id="project-menu">Projects</a>
+                      </li>
+                  </ul>
+           </div><!-- /.navbar-collapse -->
+    </div>
+  </nav>
+
+
+
+
+
+
+<!-- MATCH MARGIN TOP - 140PX  -->
+
+<!-- header & newsletter -->
+  
+  <div class="background-image-responsive"  style="margin-top:300px">
+    <h1 class="text-center"><strong>Hello, World!</strong>
+    </h1>
+    <br>
+    <p class="text-center"><strong>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</strong>
+      </p>
+      <br>
+    <!-- <p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
+    <div class="col-sm-4 col-sm-offset-4">
+    <form id="emailForm">
+      <div class="form-group">
+          <div class="input-group">
+              <input type="text" class="form-control input-lg " name="email" placeholder="What is your .edu email?" >    
+              <span class="input-group-btn">
+                  <button id="emailSubmit" type="submit" class="btn btn-danger btn-lg ladda-button" data-style="expand-right" type="submit"><span class="ladda-label">Subscribe</span></button>
+              </span>
+          </div>
+      </div>
+      </form>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <!-- services  -->
+
+  
+
+ 
+
+
+
+
+  
+  <div class="container text-center" style="margin-top:150px">
+
+    <h1 class=""><strong>Our Services</strong></h1>
+
+    <br>
+
+
+      <!-- <h3>OUR POPLOUR EVENT ITEMS</h3>
+      <p>The .thumbnail class can be used to display an image gallery.</p>
+      <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p>
+      <p>Click on the images to enlarge them.</p> -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="img-rounded">
+            <!-- <a href="https://placehold.it/300x200?text" target="_blank"> -->
+            <a href="img1.jpg" target="_blank">
+              <img src="img1.jpg" alt="Lights" style="width:100%">
+              <div class="caption">
+                <!-- <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p> -->
+
+                <p class="text-justify"><strong>Lorem ipsum donec id elit non mi porta gravida at eget metus.</strong> </p>
+               
+              </div>
+            </a>
+          </div>
+          <br>
+        
+        </div>
+
+     
+
+        <div class="col-md-4">
+          <div class="">
+            <a href="img2.jpg" target="_blank">
+              <img src="img2.jpg" alt="Nature" style="width:100%">
+              <div class="caption">
+              <p class="text-justify"><strong>Lorem ipsum donec id elit non mi porta gravida at eget metus.</strong> </p>
+              </div>
+            </a>
+          </div>
+          <br>
+      
+        </div>
+
+   
+
+        <div class="col-md-4">
+          <div class="">
+            <a href="img3.jpg" target="_blank">
+              <img src="img3.jpg" alt="Fjords" style="width:100%">
+              <div class="caption">
+                <p class="text-justify"><strong>Lorem ipsum donec id elit non mi porta gravida at eget metus.</strong> </p>
+              </div>
+            </a>
+          </div>
+          <br>
+      
+        </div>
+  
+
+      </div>
+
+ 
+  
+      <div class="row">
+        <div class="col-md-4">
+          <div class="">
+            <a href="img4.jpg" target="_blank">
+              <img src="img4.jpg" alt="Lights" style="width:100%">
+              <div class="caption">
+                <p class="text-justify"><strong>Lorem ipsum donec id elit non mi porta gravida at eget metus.</strong> </p>
+              </div>
+            </a>
+          </div>
+          <br>
+       
+        </div>
+
+
+        <div class="col-md-4">
+          <!-- <div class="thumbnail"> -->
+            <div class="">
+            <a href="img5.jpg" target="_blank">
+              <img src="img5.jpg" alt="Nature" style="width:100%">
+              <div class="caption">
+                <p class="text-justify"><strong>Lorem ipsum donec id elit non mi porta gravida at eget metus.</strong> </p>
+              </div>
+            </a>
+          </div>
+          <br>
+       
+        </div>
+
+     
+
+        <div class="col-md-4">
+          <div class="">
+            <a href="img6.jpg" target="_blank">
+              <img src="img6.jpg" alt="Fjords" style="width:100%">
+              <div class="caption">
+                <p class="text-justify"><strong>Lorem ipsum donec id elit non mi porta gravida at eget metus.</strong> </p>
+              </div>
+            </a>
+          </div>
+          <br>
+      
+        </div>
+  
+  
+  
+      </div>
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</body>
+</html>
